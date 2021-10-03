@@ -9,8 +9,6 @@ Disclaimer: This use is against TOS of presearch. Its use is your responsibility
 
 ## Installation
 
----
-
 1. Download this repository or clone it
 2. Use virtual environment or pass to step 3
 3. Install requirements
@@ -70,13 +68,8 @@ $ deactivate
 
 ## Improvements
 
----
-
 - [ ] Make secure password
 - [ ] Adding recaptcha solver (or simplest way to solve captcha)
 - [ ] Find a way to delete pytrends
 - [ ] Adding a logger
 - [ ] Verify internet connection
-
-## License
-
