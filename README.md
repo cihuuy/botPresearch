@@ -54,7 +54,7 @@ $ source /path/to/botPresearch/venv/bin/activate
 ```
 - For Windows:
 ```bash
-$ python3 -m venv c:\path\to\botPresearch\venv\Scrips\activate.bat
+$ source c:\path\to\botPresearch\venv\Scrips\activate.bat
 ```
 4. Verify that you have (venv) before command line
 5. Return to normal installation
