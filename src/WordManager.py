@@ -23,7 +23,7 @@ class WordManager:
         except ImportError:
             return self.getRandomTextFile()
 
-        if random.random() < 0.0:
+        if random.random() < 0.5:
             return self.getRandomTextFile()
         else:
             return self.getRandomTrends()

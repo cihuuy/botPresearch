@@ -73,3 +73,4 @@ $ deactivate
 - [ ] Find a way to delete pytrends
 - [ ] Adding a logger
 - [ ] Verify internet connection
+- [ ] Add options to command line
