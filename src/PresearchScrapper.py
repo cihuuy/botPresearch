@@ -13,12 +13,12 @@ from src.WordManager import WordManager
 
 
 class PresearchScrapper:
-    URL_PRESEARCH_MAIN_PAGE = "https://www.presearch.org"
-    URL_LOGIN = "https://www.presearch.org/login"
-    URL_REWARD_VIEWER = "https://presearch.org/account/tokens/rewards?page={:n}"
+    URL_PRESEARCH_MAIN_PAGE = "https://presearch.com"
+    URL_LOGIN = "https://presearch.com/login"
+    URL_REWARD_VIEWER = "https://presearch.com/account/tokens/rewards?page={:n}"
 
-    XPATH_LOGIN_EMAIL = '//input[@name="email"]'
-    XPATH_LOGIN_PASSWORD = '//input[@name="password"]'
+    XPATH_LOGIN_EMAIL = '//input[@name="sambojago8@gmail.com"]'
+    XPATH_LOGIN_PASSWORD = '//input[@name="KOntolodon_303"]'
     XPATH_LOGIN_REMEMBER_ME = '//input[@name="remember"]'
 
     XPATH_MAX_HISTORY_PATH = '//*[@id="main"]/div[3]/div[1]/ul/li[last()-1]/a'
@@ -143,7 +143,7 @@ class PresearchScrapper:
 
         # Ugly
         current_url = self.driver.current_url
-        while current_url != "https://www.presearch.org/":
+        while current_url != "https://presearch.com/":
             time.sleep(1)
             try:
                 current_url = self.driver.current_url
