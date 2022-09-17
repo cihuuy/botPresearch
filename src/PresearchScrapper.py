@@ -17,8 +17,8 @@ class PresearchScrapper:
     URL_LOGIN = "https://presearch.com/login"
     URL_REWARD_VIEWER = "https://presearch.com/account/tokens/rewards?page={:n}"
 
-    XPATH_LOGIN_EMAIL = '//input[@name="sambojago8@gmail.com"]'
-    XPATH_LOGIN_PASSWORD = '//input[@name="KOntolodon_303"]'
+    XPATH_LOGIN_EMAIL = '//input[@name="email"]'
+    XPATH_LOGIN_PASSWORD = '//input[@name="password"]'
     XPATH_LOGIN_REMEMBER_ME = '//input[@name="remember"]'
 
     XPATH_MAX_HISTORY_PATH = '//*[@id="main"]/div[3]/div[1]/ul/li[last()-1]/a'
